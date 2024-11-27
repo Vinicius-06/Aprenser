@@ -1,0 +1,278 @@
+/* header */
+html, body{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    background-color: #2c2c2c;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 img{
+    margin-left: 50px;
+}
+
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 3.1em;
+    gap: 20px;
+    text-transform: uppercase;
+    margin-right: 70px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: yellow;
+    padding: 8px;
+    border: 1.5px solid yellow;
+}
+/* header */
+
+
+/* main */
+/* main{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+/* main{
+    display: flex;
+} */
+
+.logo-main{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, #FFFF00,#F0E68C, white, white);
+}
+
+.logo-main img{
+    order: 2;
+}
+
+.logo-main article{
+    flex: 1;
+    order: 1;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 210px;
+    padding: 2px;
+    padding-top: 4em;
+    font-size: 30px;
+}
+
+.logo-main article a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 14px;
+    background-color: #ecc901;
+    color: black;
+    font-weight: bold;
+}
+
+/* abaixo da imagem logo */
+.geral h2{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+.geral div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.geral article{
+    flex: 1;         
+    margin: 10px;
+}
+
+.geral article img{
+    width: 100%;
+    height: auto;
+}
+
+.h3-p{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+
+.h3-p h3{
+    font-size: 2rem;
+}
+
+.h3-p p{
+    font-size: 1.2rem;
+    color: #727272;
+}
+
+.btn-final {
+    /* font-size: 1.8rem;
+    padding: 16px;
+    background-color: red;
+    margin: 0 auto; */
+
+    font-size: 1.8rem;         
+    padding: 16px;              
+    background-color: #ecc901;    
+    color: black;               
+    text-align: center;         
+    display: inline-block;      
+    text-decoration: none;
+    margin-left: 32em;  
+    margin-top: 3em;
+    margin-bottom: 6em;  
+
+
+    /* font-size: 1.8rem;
+    text-align: center; 
+    padding: 10px; 
+    margin: 0 10px solid; 
+    display: block; 
+    width: fit-content; 
+    margin: 5em auto; 
+    margin: 8em;
+    background-color: red;
+
+    margin-left: 29em;
+    width: 20%; */
+}
+
+.btn-final a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+
+    background-color: #ecc901;
+}
+/* abaixo da imagem logo */
+
+/* .logo-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #043464;
+}
+
+.logo-main2 article{
+    order: 1;
+}
+
+.logo-main2 img{
+    order: 2;
+} */
+
+.logo-main2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #043464;
+    gap: 20px;
+}
+
+.logo-main2 img{
+    order: 1;
+    width: 50%;
+    margin-top: 10em;
+    margin-left: 6px;
+    margin-right: 100px;
+}
+
+.logo-main2 article{
+    flex: 1;
+    order: 1;
+    /* padding: 2px; */
+    /* padding-top: 4em; */
+}
+
+.texto2 h2{
+    color: white;
+    margin-top: 4em;
+    font-size: 3rem;
+    margin-left: 1em;
+}
+
+.texto2 p{
+    /* padding: 2px; */
+    /* padding-top: 4em; */
+    font-size: 1.7rem;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-top: 4em;
+    color: white;
+    margin-left: 2em;
+    margin-right: 3em;
+
+}
+/* final */
+.final h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.final img{
+    width: 100%;
+    height: 525;
+    border: 0;
+}
+
+.final article{
+    font-size: 2rem;
+    text-align: end;
+}
+
+/* .final div{
+    width: 100%;
+} */
+/* final */
+/* main */
+
+/* footer */
+footer{
+    text-align: center;
+    font-size: 4em;
+    padding: 56px;
+    color: white;
+    line-height: 1.2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* footer */
+
+@media (max-width: 768px) {
+    .logo-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-main img {
+        width: 80%;
+    }
+
+    .geral div {
+        flex-direction: column;
+    }
+
+    .btn-final {
+        margin: 2em auto;
+        width: 90%;
+    }
+}
